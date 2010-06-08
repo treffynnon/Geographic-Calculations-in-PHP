@@ -1,5 +1,5 @@
 #[Geographic Calculations in PHP][originalurl]
-Recently I have been involved with a project that maps yachts during an ocean race, which got me thinking about basic calculations and conversions that would be useful to fellow developers. I envisage this being useful in projects leveraging Google or Yahoo maps. For the moment the class performs the following functions:
+Recently (at the time this was originally written anyway) I have been involved with a project that maps yachts during an ocean race, which got me thinking about basic calculations and conversions that would be useful to fellow developers. I envisage this being useful in projects leveraging Google or Yahoo maps. For the moment the class performs the following functions:
 
 * Calculate the distance between two coordinate points on the earth's surface (using Vincenty, Haversine, Great Circle or The Cosine Law)
 * Conversion between units (metres to kilometres, nautical miles and miles).

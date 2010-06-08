@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require './geography.class.php';
 ?>
 <head>

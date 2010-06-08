@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * Geography v0.0.2 10/12/2006
  * Simon Holywell

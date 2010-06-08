@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 require './geography.class.php';
 ?>
 <head>
@@ -23,9 +23,9 @@ highlight_string('<?=$Geography->convertLatToDMS(-31.567);?>
 <h2>Convert DMS to decimals</h2>
 <? $Geography = new Geography();
 highlight_string('<?=$Geography->convertToDecimal(\'31 34 1.200000S\');?>
-<?=$Geography->convertToDecimal(\'134° 40\\\' 40"E\', \'([0-9]{1,3})° ([0-9]{1,2})\\\' ([0-9]{1,2}[.]{0,1}[0-9]*)"([N,S,E,W])\');?>'); ?>
+<?=$Geography->convertToDecimal(\'134Â° 40\\\' 40"E\', \'([0-9]{1,3})Â° ([0-9]{1,2})\\\' ([0-9]{1,2}[.]{0,1}[0-9]*)"([N,S,E,W])\');?>'); ?>
 <p><strong>Result 1:</strong> <?=$Geography->convertToDecimal('31 34 1.200000S');?><br />
-<strong>Result 2:</strong> <?=$Geography->convertToDecimal('134° 40\' 40"E', '([0-9]{1,3})° ([0-9]{1,2})\' ([0-9]{1,2}[.]{0,1}[0-9]*)"([N,S,E,W])');?></p>
+<strong>Result 2:</strong> <?=$Geography->convertToDecimal('134Â° 40\' 40"E', '([0-9]{1,3})Â° ([0-9]{1,2})\' ([0-9]{1,2}[.]{0,1}[0-9]*)"([N,S,E,W])');?></p>
 <h2>Conversion between units</h2>
 <? $Geography = new Geography();
 highlight_string('<?=$Geography->mToKm($Geography->getDistance(-30, 150, -31, 160));?>

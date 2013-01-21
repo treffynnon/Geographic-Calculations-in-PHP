@@ -1,3 +1,10 @@
+---
+
+#DEPRECATED
+This library is now deprecated in favour of my [new Navigator library](https://github.com/treffynnon/Navigator). Please use it instead - its much better, tested and makes use of newer PHP features!
+
+---
+
 #[Geographic Calculations in PHP][originalurl]
 Recently (at the time this was originally written anyway) I have been involved with a project that maps yachts during an ocean race, which got me thinking about basic calculations and conversions that would be useful to fellow developers. I envisage this being useful in projects leveraging Google or Yahoo maps. For the moment the class performs the following functions:
 
